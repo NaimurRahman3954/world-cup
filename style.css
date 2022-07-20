@@ -65,6 +65,22 @@ button.filled{
    border: 1px solid #DD0000;
 }
 
+.hero-section:hover #arrow {
+   animation: slide 1s ease-in-out infinite;
+   margin-left: 10px;
+ }
+
+@keyframes slide {
+   0%,
+   100% {
+     transform: translate(0, 0);
+   }
+ 
+   50% {
+     transform: translate(10px, 0);
+   }
+}
+
 .hero-section:hover .animated{
    /* background-color: yellow; */
 }
@@ -233,6 +249,11 @@ footer p{
    padding: 0 15px;
 }
 
+.social i{
+   padding: 10px;
+   border-radius: 17px;
+   background-color: #22213C;
+}
 
 /* --------------
    Media Query 
@@ -299,6 +320,11 @@ footer p{
 
    /* ----------
    Footer */
+
+   footer{
+      padding: 20px 0 80px 0;
+      height: max-content;
+   }
 
    footer h3{
       font-size: 22px;
