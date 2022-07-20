@@ -394,6 +394,7 @@ footer p{
 
    .blogs{
       grid-template-columns: repeat(2, 1fr);
+      margin: auto;
    }
 }
 
