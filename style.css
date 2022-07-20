@@ -103,8 +103,14 @@ aside{
    box-sizing: border-box;
 }
 
+aside a{
+   display: grid;
+   text-decoration: none;
+   
+}
+
 aside button{
-   width: 252px;
+   /* width: 252px; */
    /* width: 25vw; */
    margin: 0;
    font-size: 20px;
